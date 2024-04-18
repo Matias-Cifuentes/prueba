@@ -1,0 +1,149 @@
+
+
+
+*{
+    margin:0;
+    padding:0;
+}
+.text-center{
+    text-align: center;
+}
+.fondo{
+
+    background-image: linear-gradient(rgba(172, 154, 105, 0.9),
+          rgb(255, 239, 12)),
+            url("img/1663611473-GettyImages-1238612255.jpg")
+       ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+.texto-fondo{
+    height: 350px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.texto-60{
+    font-size: 60px;
+    text-shadow: 0 0 10px black;
+}
+.texto-40{
+    font-size: 40px;
+    text-shadow: 0 0 5px black;
+}
+.info{
+    background-color: rgb(15, 91, 177);
+    color: white;
+}
+.contenedor{
+    width: 90%;
+    padding: 80px 0;
+    margin: auto;
+}
+.titulo-info{
+    font-size: 35px;    
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.parrafo{
+    text-align: justify;
+    margin-bottom: 15px;
+}
+.contenedor-card{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    box-shadow: 0 0 3px black;
+    width: 30%;
+    text-align: center;
+    transform: scale(1);
+    transition: transform 1s;
+    border-radius: 15px;
+}
+.card:hover{
+    box-shadow: 0 0 10px black;
+    transform: scale(1.1);
+    cursor: none;
+}
+.card p{
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.card i{
+    color:rgba(62, 146, 255, 0.779);
+    font-size: 50px;
+    margin: 40px 0 30px 0;   
+}
+.card h3{
+    padding: 25px;
+}
+.margen-icon{
+    margin-top:25px;
+}
+.galeria{
+    background-color: rgb(199, 182, 33);
+}
+.contenedor-galeria{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.contenedor-galeria img{
+    width: 30%;
+    margin-bottom: 30px;
+    box-shadow: 0 0 15px black;
+    border: 5px solid rgba(62, 146, 255, 0.779);
+    cursor: pointer;
+}
+.menu{
+    list-style-type: none;
+    background-color: rgb(163, 165, 27);
+    width: 100%;
+    overflow: auto;
+}
+.menu li{
+    float: left;
+}
+.menu li a{
+    color: rgb(169, 188, 241);
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.menu li:hover{
+    background-color: rgb(148, 168, 255);
+}
+.menu li a:hover{
+    color: rgb(27, 92, 165);
+}
+.footer-texto{
+    background-color: rgb(207, 27, 3);
+    color: rgb(226, 169, 152);
+}
+.oferta {
+    padding: 10px;
+    text-align: center;
+    margin: 15px auto 15px;
+    border:5px solid rgb(102, 138, 255);
+    background-color: rgb(240, 255, 29);
+    border-radius: 15px;
+    width: 70%;
+}
